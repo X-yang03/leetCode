@@ -37,6 +37,7 @@ g++ main.o utils.o -o program
 
 # 完整编译命令（推荐）
 g++ -g -Wall -O0 -std=c++17 main.cpp utils.cpp -o program -lm
+```
 
 ## 三、GDB 核心调试命令
 
@@ -81,3 +82,4 @@ gdb ./program
 
 # 5. 退出
 (gdb) q
+```
